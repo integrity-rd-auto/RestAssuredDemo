@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.DocStudio.utilities.Listeners"/>
+  </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.DocStudio.testcases.TC001_get_all_employees_data"/>
+      <class name="com.DocStudio.testcases.TC003_post_emp_record"/>
+      <class name="com.DocStudio.testcases.TC005_delete_emp_record"/>
+      <class name="com.DocStudio.testcases.TC004_update_emp_record"/>
+      <class name="com.DocStudio.testcases.TC002_get_single_employee_data"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.DocStudio.testcases.TC004_update_emp_record">
+        <methods>
+          <include name="putData"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.DocStudio.testcases.TC004_update_emp_record -->
+      <class name="com.DocStudio.testcases.TC002_get_single_employee_data">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getAllEmployees"/>
+          <include name="setup"/>
+          <include name="getEmployeeData"/>
+        </methods>
+      </class> <!-- com.DocStudio.testcases.TC002_get_single_employee_data -->
+      <class name="com.DocStudio.testcases.TC005_delete_emp_record">
+        <methods>
+          <include name="getAllEmployees"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.DocStudio.testcases.TC005_delete_emp_record -->
+      <class name="com.DocStudio.testcases.TC003_post_emp_record">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="postData"/>
+        </methods>
+      </class> <!-- com.DocStudio.testcases.TC003_post_emp_record -->
+      <class name="com.DocStudio.testcases.TC001_get_all_employees_data">
+        <methods>
+          <include name="setup"/>
+          <include name="tearDown"/>
+          <include name="getAllEmployees"/>
+        </methods>
+      </class> <!-- com.DocStudio.testcases.TC001_get_all_employees_data -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

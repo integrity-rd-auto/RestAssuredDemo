@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.DocStudio.utilities.Listeners" />
+	</listeners>
+	<test name="Test">
+		<classes>
+			<class name="com.DocStudio.testcases.TC001_get_all_employees_data" />
+			<class name="com.DocStudio.testcases.TC003_post_emp_record" />
+			<class name="com.DocStudio.testcases.TC005_delete_emp_record" />
+			<class name="com.DocStudio.testcases.TC004_update_emp_record" />
+			<class name="com.DocStudio.testcases.TC002_get_single_employee_data" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

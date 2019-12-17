@@ -1,0 +1,8 @@
+com\DocStudio\testcases\TC005_delete_emp_record.class
+com\DocStudio\utilities\Listeners.class
+com\DocStudio\testcases\TC002_get_single_employee_data.class
+com\DocStudio\testcases\TC003_post_emp_record.class
+com\DocStudio\utilities\RestUtil.class
+com\DocStudio\base\TestBase.class
+com\DocStudio\testcases\TC001_get_all_employees_data.class
+com\DocStudio\testcases\TC004_update_emp_record.class

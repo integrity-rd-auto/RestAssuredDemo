@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="2437" started-at="2019-12-17T05:53:56Z" finished-at="2019-12-17T05:53:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="2437" started-at="2019-12-17T05:53:56Z" finished-at="2019-12-17T05:53:58Z">
+      <class name="com.DocStudio.testcases.TC002_get_single_employee_data">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@b684286]" name="setup" is-config="true" duration-ms="80" started-at="2019-12-17T11:23:56Z" finished-at="2019-12-17T11:23:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@b684286]" name="getAllEmployees" is-config="true" duration-ms="2326" started-at="2019-12-17T11:23:56Z" finished-at="2019-12-17T11:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="getEmployeeData()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@b684286]" name="getEmployeeData" duration-ms="20" started-at="2019-12-17T11:23:58Z" finished-at="2019-12-17T11:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@b684286]" name="tearDown" is-config="true" duration-ms="3" started-at="2019-12-17T11:23:58Z" finished-at="2019-12-17T11:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DocStudio.testcases.TC002_get_single_employee_data -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

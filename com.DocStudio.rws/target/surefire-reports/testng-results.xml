@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="18" passed="18">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="8571" started-at="2019-12-17T05:55:33Z" finished-at="2019-12-17T05:55:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8571" started-at="2019-12-17T05:55:33Z" finished-at="2019-12-17T05:55:42Z">
+      <class name="com.DocStudio.testcases.TC001_get_all_employees_data">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="setup" is-config="true" duration-ms="38" started-at="2019-12-17T05:55:34Z" finished-at="2019-12-17T05:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="getAllEmployees" is-config="true" duration-ms="2399" started-at="2019-12-17T05:55:34Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="validateAllHeader()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="validateAllHeader" duration-ms="10" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAllHeader -->
+        <test-method status="PASS" signature="validateHeaderIsNotNull()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="validateHeaderIsNotNull" duration-ms="2" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderIsNotNull -->
+        <test-method status="PASS" signature="validateResponseIsNotNull()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="validateResponseIsNotNull" duration-ms="15" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateResponseIsNotNull -->
+        <test-method status="PASS" signature="validateSingleHeader()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="validateSingleHeader" duration-ms="1" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSingleHeader -->
+        <test-method status="PASS" signature="validateStatusCode()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="validateStatusCode" duration-ms="2" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateStatusCode -->
+        <test-method status="PASS" signature="validaterResponseTime()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="validaterResponseTime" duration-ms="1" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validaterResponseTime -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DocStudio.testcases.TC001_get_all_employees_data@174d20a]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DocStudio.testcases.TC001_get_all_employees_data -->
+      <class name="com.DocStudio.testcases.TC003_post_emp_record">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DocStudio.testcases.TC003_post_emp_record@66d2e7d9]" name="setup" is-config="true" duration-ms="2" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="postData()[pri:0, instance:com.DocStudio.testcases.TC003_post_emp_record@66d2e7d9]" name="postData" is-config="true" duration-ms="930" started-at="2019-12-17T05:55:36Z" finished-at="2019-12-17T05:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postData -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.DocStudio.testcases.TC003_post_emp_record@66d2e7d9]" name="checkContentType" duration-ms="1" started-at="2019-12-17T05:55:37Z" finished-at="2019-12-17T05:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkEmployeeData()[pri:0, instance:com.DocStudio.testcases.TC003_post_emp_record@66d2e7d9]" name="checkEmployeeData" duration-ms="1" started-at="2019-12-17T05:55:37Z" finished-at="2019-12-17T05:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmployeeData -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.DocStudio.testcases.TC003_post_emp_record@66d2e7d9]" name="checkStatusCode" duration-ms="1" started-at="2019-12-17T05:55:37Z" finished-at="2019-12-17T05:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.DocStudio.testcases.TC003_post_emp_record@66d2e7d9]" name="checkStatusLine" duration-ms="1" started-at="2019-12-17T05:55:37Z" finished-at="2019-12-17T05:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DocStudio.testcases.TC003_post_emp_record@66d2e7d9]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-12-17T05:55:37Z" finished-at="2019-12-17T05:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DocStudio.testcases.TC003_post_emp_record -->
+      <class name="com.DocStudio.testcases.TC002_get_single_employee_data">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@4de8b406]" name="setup" is-config="true" duration-ms="3" started-at="2019-12-17T05:55:40Z" finished-at="2019-12-17T05:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@4de8b406]" name="getAllEmployees" is-config="true" duration-ms="2000" started-at="2019-12-17T05:55:40Z" finished-at="2019-12-17T05:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="getEmployeeData()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@4de8b406]" name="getEmployeeData" duration-ms="1" started-at="2019-12-17T05:55:42Z" finished-at="2019-12-17T05:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmployeeData -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DocStudio.testcases.TC002_get_single_employee_data@4de8b406]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-12-17T05:55:42Z" finished-at="2019-12-17T05:55:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DocStudio.testcases.TC002_get_single_employee_data -->
+      <class name="com.DocStudio.testcases.TC004_update_emp_record">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DocStudio.testcases.TC004_update_emp_record@6a2bcfcb]" name="setup" is-config="true" duration-ms="2" started-at="2019-12-17T05:55:39Z" finished-at="2019-12-17T05:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="putData()[pri:0, instance:com.DocStudio.testcases.TC004_update_emp_record@6a2bcfcb]" name="putData" is-config="true" duration-ms="841" started-at="2019-12-17T05:55:39Z" finished-at="2019-12-17T05:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putData -->
+        <test-method status="PASS" signature="checkContentType()[pri:0, instance:com.DocStudio.testcases.TC004_update_emp_record@6a2bcfcb]" name="checkContentType" duration-ms="2" started-at="2019-12-17T05:55:40Z" finished-at="2019-12-17T05:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+        <test-method status="PASS" signature="checkEmployeeData()[pri:0, instance:com.DocStudio.testcases.TC004_update_emp_record@6a2bcfcb]" name="checkEmployeeData" duration-ms="2" started-at="2019-12-17T05:55:40Z" finished-at="2019-12-17T05:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEmployeeData -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.DocStudio.testcases.TC004_update_emp_record@6a2bcfcb]" name="checkStatusCode" duration-ms="2" started-at="2019-12-17T05:55:40Z" finished-at="2019-12-17T05:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.DocStudio.testcases.TC004_update_emp_record@6a2bcfcb]" name="checkStatusLine" duration-ms="1" started-at="2019-12-17T05:55:40Z" finished-at="2019-12-17T05:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.DocStudio.testcases.TC004_update_emp_record@6a2bcfcb]" name="tearDown" is-config="true" duration-ms="1" started-at="2019-12-17T05:55:40Z" finished-at="2019-12-17T05:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.DocStudio.testcases.TC004_update_emp_record -->
+      <class name="com.DocStudio.testcases.TC005_delete_emp_record">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.DocStudio.testcases.TC005_delete_emp_record@1efbd816]" name="setup" is-config="true" duration-ms="2" started-at="2019-12-17T05:55:37Z" finished-at="2019-12-17T05:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getAllEmployees()[pri:0, instance:com.DocStudio.testcases.TC005_delete_emp_record@1efbd816]" name="getAllEmployees" is-config="true" duration-ms="2094" started-at="2019-12-17T05:55:37Z" finished-at="2019-12-17T05:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllEmployees -->
+        <test-method status="PASS" signature="checkStatusCode()[pri:0, instance:com.DocStudio.testcases.TC005_delete_emp_record@1efbd816]" name="checkStatusCode" duration-ms="1" started-at="2019-12-17T05:55:39Z" finished-at="2019-12-17T05:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method status="PASS" signature="checkStatusLine()[pri:0, instance:com.DocStudio.testcases.TC005_delete_emp_record@1efbd816]" name="checkStatusLine" duration-ms="0" started-at="2019-12-17T05:55:39Z" finished-at="2019-12-17T05:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method status="PASS" signature="checkSuccesMessage()[pri:0, instance:com.DocStudio.testcases.TC005_delete_emp_record@1efbd816]" name="checkSuccesMessage" duration-ms="1" started-at="2019-12-17T05:55:39Z" finished-at="2019-12-17T05:55:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuccesMessage -->
+      </class> <!-- com.DocStudio.testcases.TC005_delete_emp_record -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
